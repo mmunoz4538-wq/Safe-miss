@@ -1,0 +1,11 @@
+[project]
+name = "safe-miss"
+version = "0.1.0"
+description = "A pre-shot commit card and honest post-shot reframe for golfers who struggle with confidence."
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
